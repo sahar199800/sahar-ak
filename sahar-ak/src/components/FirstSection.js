@@ -19,6 +19,9 @@ const FirstSection = () => {
                         </Typography>
                     </Grid>
                 </Grid>
+                <Grid>
+                    
+                </Grid>
             </Grid>
         
     );
