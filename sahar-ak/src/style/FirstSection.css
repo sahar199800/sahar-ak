@@ -23,3 +23,59 @@ body {
      url("../fonts/Holiday.otf") format("truetype");
   }
   
+  #name {
+    position: relative;
+    font-family: 'leaquesparton';
+    font-weight: bold;
+    transition-delay: 0.5s;
+    margin-right: 300px;
+    /* transition: all 1s ease; */
+}
+
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+  transition-timing-function: ease;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+  transition-duration: .4s;
+}
+
+[data-aos^=zoom][data-aos^=zoom] {
+  opacity: 0;
+  transition-property: opacity,transform;
+}
+
+#name span {
+  /* animation: opacity 2s linear 1s; */
+  /* display: block; */
+  position: absolute;
+  /* margin-top: 100px; */
+  left: 0;
+  /* top: -100px; */
+  /* margin-top: 0px; */
+  /* margin-left: 0px; */
+  margin-left: 300px;
+  /* transition: all 1s ease; */
+}
+
+.disb {
+  /* position: absolute; */
+  /* display: block; */
+  margin-top: 100px;
+  margin-left: 0px !important;
+  transition: all 1s ease;
+  font-family: 'leaquesparton';
+
+}
+
+.slashStyle{
+  font-size: 5rem;
+  background: -webkit-linear-gradient(#eee, #781C68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
