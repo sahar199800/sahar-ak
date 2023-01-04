@@ -6,22 +6,21 @@ import Me from "../img/me.jpg";
 
 const FirstSection = () => {
     return (
-
         <Grid>
             <Grid style={{ display: 'flex', width: '100%', flexWrap: 'wrap', paddingTop: 100 }}>
-                <Grid style={{ display: 'flex', justifyContent: 'center', width: '100%', alignContent:'center', alignSelf:'center' }}>
+                <Grid style={{ display: 'flex', justifyContent: 'center', width: '100%', alignContent: 'center', alignSelf: 'center' }}>
                     <Typography component={"p"} variant="p">
-                        <span style={{ color: '#434242', fontSize:'6rem', fontWeight:600 }}>
+                        <span style={{ color: '#434242', fontSize: '6rem', fontWeight: 600 }}>
                             &lt;
                         </span>
-                        <span style={{fontSize:'5rem'}} className='slashStyle'>
-                        /
+                        <span style={{ fontSize: '5rem' }} className='slashStyle'>
+                            /
                         </span>
-                        
-                        <span style={{fontSize: '5rem',color: 'white' }}>
+
+                        <span style={{ fontSize: '5rem', color: 'white' }}>
                             Developer
                         </span>
-                        <span style={{ color: '#434242', fontSize:'6rem', fontWeight:600 }}>
+                        <span style={{ color: '#434242', fontSize: '6rem', fontWeight: 600 }}>
                             &gt;
                         </span>
                     </Typography>
@@ -32,17 +31,19 @@ const FirstSection = () => {
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid>
-                <Typography component={"h1"} variant="h1" style={{ color: 'white' }} id='name' className='aos-init aos-animate'>
-                    Sahar
-                    <Typography component={"h1"} variant="h1" className='disb'>
-                        Akhzari
+            <Grid style={{ display: 'flex', paddingTop:60 }}>
+                <Grid style={{ display: 'flex' }}>
+                    <Typography component={"h1"} variant="h1" style={{ color: 'white' }} id='name' className='aos-init aos-animate'>
+                        Sahar
+                        <Typography component={"h1"} variant="h1" className='disb'>
+                            Akhzari
+                        </Typography>
                     </Typography>
-                </Typography>
-                <Grid>
-                    <Typography component={"img"} src={Me} style={{ width: 50, height: 50 }}>
+                </Grid>
+                <Grid style={{display:'flex'}}>
+                    <img src={Me} className='meImg' style={{width:350, height:550, borderRadius:150}}>
 
-                    </Typography>
+                    </img>
                 </Grid>
             </Grid>
         </Grid>

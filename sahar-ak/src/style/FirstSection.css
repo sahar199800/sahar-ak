@@ -79,3 +79,10 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.meImg{
+  width: 230 !important; 
+  height: 330 !important; 
+  border-radius:150;
+  box-shadow:0px 0px 20px #1d1d1f23;
+}
